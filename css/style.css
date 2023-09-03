@@ -267,6 +267,16 @@ body{
         flex-direction: column;
     }
 
+    .input-box > input {
+        max-width: calc(100% - 24px);
+        height: 24px;
+        background-color: #00CF71;
+    
+        padding: 4px;
+        border: 2px solid #000000;
+        border-radius: 10px;
+    }
+
     .introduce-wrapper{
         width: calc(100% - 48px);
         background-color: #F1F1F1;
@@ -312,6 +322,16 @@ body{
 
         display: flex;
         flex-direction: column;
+    }
+
+    .input-box > input {
+        max-width: calc(100% - 24px);
+        height: 24px;
+        background-color: #00CF71;
+    
+        padding: 4px;
+        border: 2px solid #000000;
+        border-radius: 10px;
     }
 
     .introduce-wrapper{
